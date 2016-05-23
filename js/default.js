@@ -7,7 +7,9 @@ WebFont.load({
   }
 });
 
-
+$(document).ready(function(){
+    $('.dropdown-button').dropdown();
+  });
 // Logo Animation
 $svg = $('.logo > svg').drawsvg({
   duration: 1500,
