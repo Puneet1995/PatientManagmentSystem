@@ -8,6 +8,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>Login | Hospital Management</title>
   <link rel="stylesheet" href="css/style.css">
+	<link href="//cdn.muicss.com/mui-0.6.0/css/mui.min.css" rel="stylesheet" type="text/css" />
+	 <script src="//cdn.muicss.com/mui-0.6.0/js/mui.min.js"></script>
   <!--[if lt IE 9]><script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 </head>
 <body>
