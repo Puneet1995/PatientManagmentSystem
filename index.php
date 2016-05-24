@@ -39,7 +39,7 @@ if((isset($_GET['pid']))&&($_GET['pid']==01))
 				$_SESSION['username']=$username;
 				mysql_query("insert into session value ('$username','$sessionid')");
 				setcookie("username",$_POST['login'],time()+3600);
-				header('Location: login.php');
+				header('Location: login.php?pid=view_patient');
 			}
 		}
 		else echo "<script type=\"text/javascript\">alert(\"Wrong Password. Access Denied.\")</script>";
